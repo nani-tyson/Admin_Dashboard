@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@588&display=swap');
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7a7f9d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #21295c;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover {
+  background: #21295c;
+}
+
+.MuiDataGrid-root {
+  border: 1px solid #ccc;
+  border-radius: 0px !important; /* Forcefully remove rounded corners */
+}
+
+.MuiDataGrid-cell {
+  border-bottom: 1px solid #ccc;
+}
+
+.MuiDataGrid-columnHeaders {
+  border-bottom: 1px solid #ccc;
+}
+
+.MuiDataGrid-footerContainer {
+  border-top: 1px solid #ccc;
+}
